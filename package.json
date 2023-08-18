@@ -1,6 +1,6 @@
 {
     "name": "node-reb-contrib-aws-sdk3-sqs",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -10,12 +10,16 @@
         "node-red",
         "aws",
         "sqs"
-      ],
+    ],
     "node-red": {
         "nodes": {
             "AWS SQS client": "sqs.js",
-            "AWS config":"config.js"
+            "AWS config": "config.js"
         }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ivanvaccari/node-reb-contrib-aws-sdk3-sqs.git"
     },
     "author": "",
     "license": "ISC",
