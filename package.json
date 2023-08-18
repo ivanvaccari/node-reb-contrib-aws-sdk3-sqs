@@ -1,0 +1,25 @@
+{
+    "name": "node-reb-contrib-aws-sdk3-sqs",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "node-red",
+        "aws",
+        "sqs"
+      ],
+    "node-red": {
+        "nodes": {
+            "AWS SQS client": "sqs.js",
+            "AWS config":"config.js"
+        }
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@aws-sdk/client-sqs": "^3.391.0"
+    }
+}
